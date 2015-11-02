@@ -1,0 +1,29 @@
+framework module BlocksKit {
+    umbrella header "BlocksKit-Watch.h"
+
+    header "BKMacros"
+    header "NSArray+BlocksKit"
+    header "NSDictionary+BlocksKit"
+    header "NSIndexSet+BlocksKit"
+    header "NSInvocation+BlocksKit"
+    header "NSMapTable+BlocksKit"
+    header "NSMutableArray+BlocksKit"
+    header "NSMutableDictionary+BlocksKit"
+    header "NSMutableIndexSet+BlocksKit"
+    header "NSMutableOrderedSet+BlocksKit"
+    header "NSMutableSet+BlocksKit"
+    header "NSObject+BKAssociatedObjects"
+    header "NSObject+BKBlockExecution"
+    header "NSObject+BKBlockObservation"
+    header "NSOrderedSet+BlocksKit"
+    header "NSSet+BlocksKit"
+    header "NSTimer+BlocksKit"
+    header "A2BlockInvocation"
+    header "A2DynamicDelegate"
+    header "NSObject+A2BlockDelegate"
+    header "NSObject+A2DynamicDelegate"
+    header "NSCache+BlocksKit"
+
+    export *
+    module * { export * }
+}

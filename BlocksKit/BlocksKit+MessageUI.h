@@ -25,5 +25,9 @@
 //  THE SOFTWARE.
 //
 
+#ifdef TARGET_OS_IOS
+
 #import <BlocksKit/MFMailComposeViewController+BlocksKit.h>
 #import <BlocksKit/MFMessageComposeViewController+BlocksKit.h>
+
+#endif

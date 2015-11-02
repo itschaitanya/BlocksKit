@@ -25,10 +25,25 @@
 //  THE SOFTWARE.
 //
 
+
+#import <UIKit/UIKit.h>
+
+//! Project version number for BlocksKit.
+FOUNDATION_EXPORT double BlocksKitVersionNumber;
+
+//! Project version string for BlocksKit.
+FOUNDATION_EXPORT const unsigned char BlocksKitVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <BlocksKit/PublicHeader.h>
+
+
+
+#import <BlocksKit/BKMacros.h>
 #import <BlocksKit/NSArray+BlocksKit.h>
 #import <BlocksKit/NSDictionary+BlocksKit.h>
 #import <BlocksKit/NSIndexSet+BlocksKit.h>
 #import <BlocksKit/NSInvocation+BlocksKit.h>
+#import <BlocksKit/NSMapTable+BlocksKit.h>
 #import <BlocksKit/NSMutableArray+BlocksKit.h>
 #import <BlocksKit/NSMutableDictionary+BlocksKit.h>
 #import <BlocksKit/NSMutableIndexSet+BlocksKit.h>
@@ -40,4 +55,26 @@
 #import <BlocksKit/NSOrderedSet+BlocksKit.h>
 #import <BlocksKit/NSSet+BlocksKit.h>
 #import <BlocksKit/NSTimer+BlocksKit.h>
-#import <BlocksKit/BKMacros.h>
+#import <BlocksKit/A2BlockInvocation.h>
+#import <BlocksKit/A2DynamicDelegate.h>
+#import <BlocksKit/NSObject+A2BlockDelegate.h>
+#import <BlocksKit/NSObject+A2DynamicDelegate.h>
+#import <BlocksKit/NSCache+BlocksKit.h>
+
+#import <BlocksKit/BlocksKit+MessageUI.h>
+#import <BlocksKit/BlocksKit+UIKit.h>
+#import <BlocksKit/BlocksKit+QuickLook.h>
+#import <BlocksKit/QLPreviewController+BlocksKit.h>
+#import <BlocksKit/UIActionSheet+BlocksKit.h>
+#import <BlocksKit/UIAlertView+BlocksKit.h>
+#import <BlocksKit/UIBarButtonItem+BlocksKit.h>
+#import <BlocksKit/UIControl+BlocksKit.h>
+#import <BlocksKit/UIGestureRecognizer+BlocksKit.h>
+#import <BlocksKit/UIPopoverController+BlocksKit.h>
+#import <BlocksKit/UITextField+BlocksKit.h>
+#import <BlocksKit/UIView+BlocksKit.h>
+#import <BlocksKit/UIWebView+BlocksKit.h>
+#import <BlocksKit/UIImagePickerController+BlocksKit.h>
+#import <BlocksKit/MFMailComposeViewController+BlocksKit.h>
+#import <BlocksKit/MFMessageComposeViewController+BlocksKit.h>
+#import <BlocksKit/NSURLConnection+BlocksKit.h>

@@ -24,7 +24,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 //
-
+#ifdef TARGET_OS_IOS
 #import <BlocksKit/UIActionSheet+BlocksKit.h>
 #import <BlocksKit/UIAlertView+BlocksKit.h>
 #import <BlocksKit/UIBarButtonItem+BlocksKit.h>
@@ -36,3 +36,4 @@
 #import <BlocksKit/UIWebView+BlocksKit.h>
 #import <BlocksKit/UITextField+BlocksKit.h>
 #import <BlocksKit/UIImagePickerController+BlocksKit.h>
+#endif
